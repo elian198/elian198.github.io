@@ -1,0 +1,41 @@
+body{
+   
+}
+body{
+    background-color: #220A29;
+    padding: 3rem;
+    color: white;
+    margin: 1rem, 2rem;
+}
+html{
+    background-color: white;
+    padding: 2rem;
+    margin: 0px 6rem;
+  
+}
+.container{
+    width: 100%;
+}
+.foto{
+    width: 14rem;
+    height: 18rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    margin-bottom: 2rem;
+    border-bottom: solid 4px white;
+   
+}
+img{
+ width: 2rem;
+ height: 2rem;
+ margin: 0.5rem 1rem;
+}
+.header-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+}
