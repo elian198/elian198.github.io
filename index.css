@@ -11,8 +11,13 @@ html{
     margin: 0px 6rem;
   
 }
+
 .container{
     width: 100%;
+}
+.container-image{
+    display: flex;
+    justify-content: space-around;
 }
 .foto{
     width: 14rem;
@@ -46,6 +51,8 @@ img{
 .springBoot:hover, .java:hover, .sql:hover, .html:hover, .git:hover, .proyect-challangeAlkemy:hover, .proyect-astillas:hover{
  background-color: black;
  color: bisque;
+ border:  0.2px  azure;
+ padding: 0.3rem 0.5rem ;
 }
 
 .header-foto{
@@ -56,6 +63,9 @@ img{
 ul{
     display: flex;
     justify-content: space-around;
+}
+h1{
+    
 }
 h2{
     margin-bottom: 2rem;
@@ -92,9 +102,7 @@ h6{
         width: 7rem;
     height: 8rem;
     }
-    h1{
-        font-size: 1rem;
-    }
+   
     .skill-image{
       width: 7rem;
       height: 7rem;
@@ -102,8 +110,7 @@ h6{
     }
     ul{
         flex-direction: column;
-        align-items: center;
-        align-content: center;
+      
     }
     .proyectos{
         display: flex;
@@ -111,5 +118,39 @@ h6{
     }
     h2{
        text-align: center;
+    }
+    body{
+        padding: 1rem;
+    }
+    .container{
+        
+    }
+    .header-foto{
+    display: none;
+    }
+    .header-redes{
+      flex-direction: row;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    html{
+        padding: 0.5%;
+        margin: 0px  0.3rem;
+
+    }
+    .header{
+        flex-direction: column;
+    }
+    section{
+        margin-top: 2rem;
+    }
+    .proyectos img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .container-image{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
     }
 }
