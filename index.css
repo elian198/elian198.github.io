@@ -23,9 +23,12 @@ html{
 .header{
     display: flex;
     justify-content: space-between;
+
 }
 section{
-    margin-bottom: 2rem;
+
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     border-bottom: solid 4px white;
    
 }
@@ -38,4 +41,26 @@ img{
     display: flex;
     flex-direction: column;
     gap: 1;
+}
+.header-title{
+    text-align: center;
+}
+.header-foto{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    margin-bottom: 3rem;
+}
+h6{
+    margin-bottom: 2rem;
+}
+.skill-image{
+    width: 3rem;
+    height: 3rem;
 }
