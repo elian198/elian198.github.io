@@ -1,15 +1,13 @@
-body{
-   
-}
+ 
 body{
     background-color: #220A29;
-    padding: 3rem;
-    color: white;
+    padding: 2rem;
+    color:white;
     margin: 1rem, 2rem;
 }
 html{
     background-color: white;
-    padding: 2rem;
+    padding: 1%;
     margin: 0px 6rem;
   
 }
@@ -68,6 +66,7 @@ h6{
 .skill{
     border: none;
     padding-bottom: 3rem;
+    
 }
 .skill-image{
     width: 3rem;
@@ -78,4 +77,39 @@ h6{
     margin-bottom: 2rem;
     display: flex;
   
+}
+
+@media  screen and (max-width: 702px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 1rem;
+        height: 1rem;
+    }
+    .foto{
+        width: 7rem;
+    height: 8rem;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .skill-image{
+      width: 7rem;
+      height: 7rem;
+      margin-bottom: 1rem;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+       text-align: center;
+    }
 }
