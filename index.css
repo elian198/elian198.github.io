@@ -18,7 +18,7 @@ html{
 }
 .foto{
     width: 14rem;
-    height: 18rem;
+    height: 16rem;
 }
 .header{
     display: flex;
@@ -28,7 +28,7 @@ html{
 section{
 
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     border-bottom: solid 4px white;
    
 }
@@ -45,6 +45,11 @@ img{
 .header-title{
     text-align: center;
 }
+.springBoot:hover, .java:hover, .sql:hover, .html:hover, .git:hover, .proyect-challangeAlkemy:hover, .proyect-astillas:hover{
+ background-color: black;
+ color: bisque;
+}
+
 .header-foto{
     display: flex;
     justify-content: end;
@@ -55,12 +60,22 @@ ul{
     justify-content: space-around;
 }
 h2{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 h6{
     margin-bottom: 2rem;
 }
+.skill{
+    border: none;
+    padding-bottom: 3rem;
+}
 .skill-image{
     width: 3rem;
     height: 3rem;
+}
+.proyectos{
+    padding: 0;
+    margin-bottom: 2rem;
+    display: flex;
+  
 }
