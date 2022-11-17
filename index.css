@@ -32,7 +32,7 @@ section{
 
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    border-bottom: solid 4px white;
+    border-bottom: solid 5px white;
    
 }
 img{
@@ -52,7 +52,7 @@ img{
  background-color: black;
  color: bisque;
  border:  0.2px  azure;
- padding: 0.3rem 0.5rem ;
+ padding: 0rem 0.5rem ;
 }
 
 .header-foto{
@@ -88,6 +88,14 @@ h6{
     display: flex;
   
 }
+.java, .sql, .springBoot, .git{
+    border-bottom: white 4px outset;
+    margin-top: 10px;
+}
+.html{
+    margin-top: 10px;
+}
+
 
 @media  screen and (max-width: 702px) {
     body{
@@ -152,5 +160,9 @@ h6{
         flex-direction: column;
         align-items: center;
         align-content: center;
+    }
+    .formation-complementaria img{
+        width: 3rem;
+        height: 3rem;
     }
 }
