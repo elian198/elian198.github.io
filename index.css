@@ -28,6 +28,9 @@ html{
     justify-content: space-between;
 
 }
+p{
+    margin-bottom: 30px;
+}
 section{
 
     margin-bottom: 1.5rem;
@@ -48,8 +51,8 @@ img{
 .header-title{
     text-align: center;
 }
-.springBoot:hover, .java:hover, .sql:hover, .html:hover, .git:hover, .proyect-challangeAlkemy:hover, .proyect-astillas:hover{
- background-color: black;
+.springBoot:hover, .java:hover, .sql:hover, .html:hover, .git:hover, .proyect-challangeAlkemy:hover, .proyect-astillas:hover, .reparacion:hover{
+background-color: black;
  color: bisque;
  border:  0.2px  azure;
  padding: 0rem 0.5rem ;
@@ -88,16 +91,19 @@ h6{
     display: flex;
   
 }
-.java, .sql, .springBoot, .git{
-    border-bottom: white 4px outset;
+.java, .sql, .springBoot, .html,  .git{
+    border-bottom: white 2px outset;
+
     margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .html{
     margin-top: 10px;
 }
 
 
-@media  screen and (max-width: 702px) {
+@media  screen and (max-width: 800px) {
     body{
         display: flex;
         flex-direction: column;
@@ -138,8 +144,13 @@ h6{
     }
     .header-redes{
       flex-direction: row;
+      justify-content: space-around;
       margin-bottom: 20px;
       text-align: center;
+    }
+    .header-redes img{
+     width: 2rem;
+     height: 2rem;
     }
     html{
         padding: 0.5%;
@@ -165,4 +176,5 @@ h6{
         width: 3rem;
         height: 3rem;
     }
+    
 }
