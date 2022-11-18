@@ -38,6 +38,10 @@ section{
     border-bottom: solid 5px white;
    
 }
+
+.header h1{
+    font-size: 4rem;
+}
 img{
  width: 2rem;
  height: 2rem;
@@ -47,7 +51,9 @@ img{
     display: flex;
     flex-direction: column;
     gap: 1;
+    font-size: 1.5vw;
 }
+
 .header-title{
     text-align: center;
 }
@@ -60,8 +66,17 @@ background-color: black;
 
 .header-foto{
     display: flex;
-    justify-content: end;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    align-content: space-between;
+    align-items: center;
+    width: 30%;
+    
+}
+.header-foto img{
+    width: 60%;
+    height: 95%;
+    margin-left: 30%;
+    
 }
 ul{
     display: flex;
@@ -82,8 +97,8 @@ h6{
     
 }
 .skill-image{
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
 }
 .proyectos{
     padding: 0;
@@ -103,7 +118,7 @@ h6{
 }
 
 
-@media  screen and (max-width: 800px) {
+@media  screen and (max-width: 996px) {
     body{
         display: flex;
         flex-direction: column;
