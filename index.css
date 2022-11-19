@@ -27,7 +27,7 @@ html{
 .header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    padding-bottom: 10px;
 
 }
 p{
