@@ -18,6 +18,7 @@ html{
 .container-image{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .foto{
     width: 14rem;
@@ -26,6 +27,7 @@ html{
 .header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
 
 }
 p{
@@ -40,7 +42,10 @@ section{
 }
 
 .header h1{
-    font-size: 4rem;
+    font-size: 5vw;
+}
+.header h5{
+    font-size: 2.5vw;
 }
 img{
  width: 2rem;
@@ -96,6 +101,7 @@ h6{
     padding-bottom: 3rem;
     
 }
+
 .skill-image{
     width: 4rem;
     height: 4rem;
@@ -107,9 +113,10 @@ h6{
   
 }
 .java, .sql, .springBoot, .html,  .git{
-    border-bottom: white 2px outset;
+    border-bottom: 2px solid white;
+    
 
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 10px;
 
 }
@@ -117,11 +124,16 @@ h6{
     margin-top: 10px;
 }
 
-
-@media  screen and (max-width: 996px) {
+.proyect-challangeAlkemy, .proyect-astillas{
+ 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 2px  10px 2px;
+}
+@media  screen and (max-width: 742px) {
     body{
         display: flex;
         flex-direction: column;
+        padding: 1rem;
     }
     img{
         width: 1rem;
@@ -148,9 +160,7 @@ h6{
     h2{
        text-align: center;
     }
-    body{
-        padding: 1rem;
-    }
+   
     .container{
         
     }
@@ -162,14 +172,15 @@ h6{
       justify-content: space-around;
       margin-bottom: 20px;
       text-align: center;
+      font-size : 14px;
     }
     .header-redes img{
      width: 2rem;
      height: 2rem;
     }
     html{
-        padding: 0.5%;
-        margin: 0px  0.3rem;
+        padding: 1%;
+        margin: 0px  1rem;
 
     }
     .header{
