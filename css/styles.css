@@ -11470,7 +11470,6 @@ section.resume-section .resume-section-content {
 
 section{
   border-bottom: 15px solid black;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 .proyectos img{
  width: 2rem;
@@ -11500,6 +11499,7 @@ section{
  color: #E6E6E6;
  line-height: 25px;
  box-sizing:border-box;
+ box-shadow: gray 5px 5px 10px 5px ;
 }
 .proyect-challangeAlkemy{
   background-image: url("../assets/img/disney.jpg");
@@ -11509,7 +11509,7 @@ section{
 }
 
 .proyect-barberShop{
-  background-color: #DF7401;
+  background: linear-gradient(45deg,blue, white 50%, red);
 }
 .proyect-container div{
   background-color: rgba(0, 0, 0, 0.6);
@@ -11545,15 +11545,25 @@ section{
   display: flex;
   justify-content: space-around;
   box-sizing: border-box;
+}
 
- 
+body{
+  background: radial-gradient(#F2F2F2, #CEE3F6);
 }
 #skills, .formation-complementaria{
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.1);
+  padding: 30px;
  }
  #skills{
   border-bottom: 15px solid black;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .dev-icons{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .dev-icons img{
+   margin: 10px;
  }
 @media (max-width: 790px){
   .proyect-container, .container-barbershop{
@@ -11561,11 +11571,23 @@ section{
     text-align: center;
     align-items: center;
     align-content: center;
-   
+  }
+  .proyect-banco, .proyect-challangeAlkemy, .proyect-astillas, .proyect-barberShop{
+      padding: 20px;
+      width: 90%;
+  }
+  #about, #interests{
+    
+ padding: 30px 50px 30px 50px;
   }
   .header-redes{
     flex-direction: column;
     left: 86%;
+  }
+
+  .header-redes img{
+  width: 2rem;
+  height: 2rem;
   }
   body{
     text-align: center;
@@ -11574,14 +11596,16 @@ section{
     list-style: none;
   }
 .proyect-banco, .proyect-challangeAlkemy, .proyect-astillas, .proyect-barberShop{
-  width: 70%;
-  min-width: 400px;
+  width: 92%;
+  min-width: 355px;
   }
   #skills{
    text-align: center;
+   padding: 20 50px;
   }
   #skills img{
-    margin: 10px;
+    margin: 15px;
+    
   }
   .dev-icons{
     display: flex;
