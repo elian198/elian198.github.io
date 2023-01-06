@@ -11565,6 +11565,15 @@ body{
  .dev-icons img{
    margin: 10px;
  }
+ @media (max-width: 992px){
+   body{
+    padding: 20px;
+   }
+   .header-redes{
+    left: 60%;
+    top: 10%;
+   }
+ }
 @media (max-width: 790px){
   .proyect-container, .container-barbershop{
     flex-direction: column;
@@ -11577,9 +11586,9 @@ body{
       width: 90%;
   }
   #about, #interests{
-    
- padding: 30px 50px 30px 50px;
+ padding: 40px 50px 30px 40px;
   }
+  
   .header-redes{
     flex-direction: column;
     left: 86%;
@@ -11592,6 +11601,7 @@ body{
   body{
     text-align: center;
   }
+
   ul{
     list-style: none;
   }
@@ -11610,6 +11620,24 @@ body{
   .dev-icons{
     display: flex;
    flex-wrap: wrap;
-   
+  }
+
+  #education{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+}
+.whatsappLink.mobile{
+  display: none;
+}
+@media  (max-width:1024px){
+  .whatsappLink.desktop {
+    display: none;
+  }
+  .whatsappLink.mobile{
+    display: block;
   }
 }
